@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <title>Personnummer modellering</title>
+    <script src="js/personnummer.js"></script>
+  </head>
+  <body>
+    <form>
+    	<input type="text" id="pernum" tabindex="1" />
+    	<input type="number" id="parseInt(svarsLangd)" tabindex="2" />
+    	<input type="submit" name="Submit" tabindex="3" onclick="alert(fixPersonnummer(document.getElementById('pernum').value, document.getElementById('parseInt(svarsLangd)').value.value))">
+    </form>
+  </body>
+</html>
