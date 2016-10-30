@@ -1,3 +1,9 @@
+// Skapat av Mattias Hedman, 2016
+// Fritt att avända för alla om dessa rader står kvar.
+// Ska du använda det i en kommersiell produkt vill jag att du frågar mig först.
+// Det gör du enklast på github-sidan: https://github.com/macmattias/personnummer
+// Eventuella förändringar och tillägg görs som pull requests.
+
 function addDash(personnummer){
 	pos = (personnummer.length)-4;
 	returnWithDash = insert(personnummer,pos,'-');
