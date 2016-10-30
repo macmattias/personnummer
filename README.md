@@ -6,16 +6,6 @@ Av: Mattias Hedman
 
 Du skickar med personnumret du har, string eller int, och vilken längd du vill ha som resultat.
 
-Ex:
-
-Du har 19830201-1234 och vill få det till 8302011234 så skickar du in:
-
-Personnumret och 10.
-
-Du har 198302011234 och vill ha med - i:
-
-Personnumret och 13.
-
 De värden som finns är:
 
 10 - utan år och streck
@@ -24,4 +14,9 @@ De värden som finns är:
 
 12 - Med år utan steck
 
-13 - Med år och streck}
+13 - Med år och streck
+
+Exempel:
+Du har 861221-2324 och vill få ut det utan bindestreck: fixaPersonnummer(861221-2324, 10): 8612212324
+Du har 561221-2324 och vill få ut det med år och utan bindestreck: fixaPersonnummer(861221-2324, 12): 198612212324
+Du har 0612212324 och vill få ut det med år och med bindestreck: fixaPersonnummer(861221-2324, 13): 20061221-2324
