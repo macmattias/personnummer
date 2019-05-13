@@ -18,5 +18,5 @@ De värden som finns är:
 
 Exempel:
 Du har 861221-2324 och vill få ut det utan bindestreck: fixaPersonnummer(861221-2324, 10): 8612212324
-Du har 561221-2324 och vill få ut det med år och utan bindestreck: fixaPersonnummer(861221-2324, 12): 198612212324
-Du har 0612212324 och vill få ut det med år och med bindestreck: fixaPersonnummer(861221-2324, 13): 20061221-2324
+Du har 561221-2324 och vill få ut det med år och utan bindestreck: fixaPersonnummer(561221-2324, 12): 195612212324
+Du har 0612212324 och vill få ut det med år och med bindestreck: fixaPersonnummer(0612212324, 13): 20061221-2324
