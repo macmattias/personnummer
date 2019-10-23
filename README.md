@@ -1,6 +1,6 @@
 **Fixa personnummer**
 
-Version: 1.2
+Version: 1.3
 
 Av: Mattias Hedman
 
