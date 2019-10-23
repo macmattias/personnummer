@@ -4,6 +4,8 @@
 // Det gör du enklast på github-sidan: https://github.com/macmattias/personnummer
 // Eventuella förändringar och tillägg görs som pull requests.
 
+var fixedPersonnummer, len
+
 function addDash(personnummer){
 	pos = (personnummer.length)-4;
 	returnWithDash = insert(personnummer,pos,'-');
